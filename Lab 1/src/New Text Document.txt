@@ -1,0 +1,28 @@
+subtype slotindex is natural range 0..(capacity - 1);  -- Natural implies >= 0.
+front: slotindex := 0; -- needed to break from circular queue into linear list
+rear: slotindex := 0;  -- insert at front, remove from rear.
+max: slotindex := capacity - 1; -- need a maximum capacity to point to instead of doubling back
+mesnum : Natural range 0..(capacity-1) := 0; -- number in buff
+box: array(slotindex) of message; -- circular buffer
+maxMessages: Natural := capacity - 1; -- Integers >= 0.
+
+procedure acceptMessage(msg: in message) is
+	Index: Natural := 1;
+begin
+	if mesnum > maxMessages then put("ERROR - Message rejected - queue is full!"); new_line(2);
+	end if;
+	--
+	while Index <= maxMessages and then msg > box( Index ) loop
+		Index := Index +1;
+	end loop;
+	-- 
+	for I in reverse Index .. maxMessages loop
+		box( I + 1 ) := box( I );
+	end loop;
+	--
+	mesum := mesnum + 1;
+	rear := rear + 1;
+	box( Index ) := msg;
+
+end acceptMessage;
+		

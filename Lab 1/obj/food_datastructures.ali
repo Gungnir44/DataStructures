@@ -1,0 +1,183 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U food_datastructures%b	food_datastructures.adb	66509994 OO PK
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+U food_datastructures%s	food_datastructures.ads	56a3e7cd EE NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+Z ada.text_io.enumeration_io%s
+Z system%s		system.ads		system.ali
+Z system.val_enum_8%s	s-vaenu8.ads		s-vaenu8.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nudira.ads		20210520051130 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20210520051130 0bfd6ec4 ada.numerics.discrete_random%b
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tienau.ads		20210520051130 6a9c157b ada.text_io.enumeration_aux%s
+D a-tienio.ads		20210520051130 2e79c9bf ada.text_io.enumeration_io%s
+D a-tienio.adb		20210520051130 c9e6b5af ada.text_io.enumeration_io%b
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D food_datastructures.ads  20240205162346 a1d3ed53 food_datastructures%s
+D food_datastructures.adb  20240205162342 c78374c7 food_datastructures%b
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imageu.ads		20210520051134 525c30c6 system.image_u%s
+D s-imguns.ads		20210520051134 0e4da2ac system.img_uns%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-rannum.ads		20210520051134 c3978523 system.random_numbers%s
+D s-rannum.adb		20210520051134 2631917b system.random_numbers%b
+D s-ransee.ads		20210520051134 01a57b33 system.random_seed%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-vaenu8.ads		20210520051134 b7b91426 system.val_enum_8%s
+D s-valuns.ads		20210520051134 dac7b45d system.val_uns%s
+D s-valuen.ads		20210520051134 72b74993 system.value_n%s
+D s-valueu.ads		20210520051134 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s s [get food_datastructures__food_typeio 31 14 23_4]
+G c Z s s [get food_datastructures__food_typeio 34 14 23_4]
+G c Z s s [put food_datastructures__food_typeio 40 14 23_4]
+G c Z s s [put food_datastructures__food_typeio 52 14 23_4]
+G c Z s s [get food_datastructures__food_typeio 62 14 23_4]
+G c Z s s [put food_datastructures__food_typeio 69 14 23_4]
+G c Z s b [printfood_pack food_datastructures 28 14 none]
+G c Z s b [printfood_packtype food_datastructures 30 14 none]
+G c Z s b [printfood_packshipment food_datastructures 32 14 none]
+G c Z s b [getfood_packfoodtype food_datastructures 34 14 none]
+G c Z s b [getfood_packfoodshipment food_datastructures 36 14 none]
+G c Z s b [setfood_packfoodtype food_datastructures 38 14 none]
+G c Z s b [setfood_packshipment food_datastructures 40 14 none]
+G c Z s b [randomfoodtype food_datastructures 42 13 none]
+G c Z s b [Ogt food_datastructures 44 13 none]
+G c Z s b [Oeq food_datastructures 46 13 none]
+G c Z s b [printfoodtype food_datastructures 48 14 none]
+G c Z s s [food_packIP food_datastructures 51 9 none]
+G c Z b b [random food_datastructures__generaterandomfoodtype 52 13 5_4]
+G c Z b b [random food_datastructures__generaterandomfoodtype 54 13 5_4]
+G c Z b b [reset food_datastructures__generaterandomfoodtype 60 14 5_4]
+G c Z b b [reset food_datastructures__generaterandomfoodtype 61 14 5_4]
+G c Z b b [save food_datastructures__generaterandomfoodtype 67 14 5_4]
+G c Z b b [reset food_datastructures__generaterandomfoodtype 68 14 5_4]
+G c Z b b [image food_datastructures__generaterandomfoodtype 72 13 5_4]
+G c Z b b [value food_datastructures__generaterandomfoodtype 73 13 5_4]
+X 1 ada.ads
+16K9*Ada 20e8 17|11r6 11r23 13r6 23r31 18|5r43
+X 4 a-numeri.ads
+16K13*Numerics 35e17 17|13r10 18|5r47
+X 5 a-nudira.ads
+44k22*Discrete_Random 81e33 17|13w19 18|5r56
+50R9*Generator<29|65R9> 18|8r30[5]
+52V13 Random{17|19E9} 18|34s39[5]
+X 6 a-nudira.adb
+53V16 Random[29|86]{17|19E9} 30|402b13[18|5]
+65V16 Random[29|86]{17|19E9} 30|402b13[18|5]
+X 12 a-textio.ads
+58K13*Text_IO 725e16 17|11w10 11r27 23r35
+262U14*New_Line 18|57s51
+390U14*Put 18|11s43 17s10
+463U14*Put 18|11s33 57s10
+X 14 a-tienio.ads
+26k21*Enumeration_IO 76e31 17|23r43
+52U14*Put 18|11s10[17|23] 14s11[17|23] 57s34[17|23]
+X 17 food_datastructures.ads
+15K9*Food_DataStructures 51E9 56l6 56e25 18|1b15 59l7 59t26
+19E9*Food_Type 19e93 20r30 21r27 23r58 34r66 38r72 42r35 48r39 52r21 18|5r73
+. 19r65 25r72 31r35 32r15 56r39
+19n23*Wheat{19E9} 20r46
+19n30*Corn{19E9}
+19n36*Rice{19E9}
+19n42*Potatoes{19E9}
+19n52*Squash{19E9}
+19n60*Tomato{19E9} 20r55
+19n68*Steak{19E9} 21r43
+19n75*Pork{19E9}
+19n81*Fish{19E9}
+19n87*Fowel{19E9} 21r52 52r34
+20E12*GrainVegetable{19E9}
+21E12*MeatProduct{19E9}
+23K12*Food_TypeIO[14|26] 24r8
+26R9*Food_Pack 28r41 30r45 32r48 34r47 36r51 38r51 40r51 44r32 46r32 51c9
+. 54e14 18|10r41 13r45 16r48 19r46 22r50 25r51 28r51 38r37 47r37
+28U14*PrintFood_Pack 28>30 18|10b14 11l74 11t88
+28r30 foodIn{26R9} 18|10b30 11r14 11r47
+30U14*PrintFood_PackType 30>34 18|13b14 14l40 14t58
+30r34 FoodIn{26R9} 18|13b34 14r16
+32U14*PrintFood_PackShipment 32>37 18|16b14 17l44 17t66
+32r37 FoodIn{26R9} 18|16b37 17r15
+34V14*getFood_PackFoodType{19E9} 34>36 18|19b13 20l39 20t59 40s20 40s49 49s20
+. 49s49
+34r36 FoodIn{26R9} 18|19b35 20r17
+36V14*getFood_PackFoodShipment{character} 36>40 18|22b13 23l43 23t67
+36r40 FoodIn{26R9} 18|22b39 23r17
+38U14*setFood_PackFoodType 38=36 38>62 18|25b14 26l44 26t64
+38r36 FoodIn{26R9} 18|25b36 26m10
+38e62 FoodType{19E9} 18|25b62 26r30
+40U14*setFood_PackShipment 40=36 40>62 18|28b14 29l52 29t72
+40r36 FoodIn{26R9} 18|28b36 29m10
+40e62 FoodShipment{character} 18|28b62 29r34
+42V13*RandomFoodType{19E9} 18|31b13 36l8 36t22
+44V14*">"{boolean} 44>18 44>24 18|38b19 45l9 45t11
+44r18 Left{26R9} 18|38b23 40r41
+44r24 Right{26R9} 18|38b29 40r70
+46V14*"="{boolean} 46>18 46>24 18|47b19 54l14 54t16
+46r18 Left{26R9} 18|47b23 49r41
+46r24 Right{26R9} 18|47b29 49r70
+48U14*PrintFoodType 48>29 18|56b14 57l68 57t81
+48e29 typeFood{19E9} 18|56b29 57r39
+52e10*aFoodType{19E9} 18|11r21 14r23 20r24 26m17
+53e10*aFoodShipment{character} 18|11r54 17r22 23r24 29m17
+X 18 food_datastructures.adb
+5K12 GenerateRandomFoodType[5|44] 6r8 8r7 34r16
+8r4 G{5|50R9[5]} 34r47
+32e8 aFood{17|19E9} 34m7 35r14
+X 19 interfac.ads
+79M9*Unsigned_32
+82M9*Unsigned_64
+X 29 s-rannum.ads
+77V13*Random{19|79M9} 30|224i21
+78V13*Random{19|82M9} 30|224i21
+

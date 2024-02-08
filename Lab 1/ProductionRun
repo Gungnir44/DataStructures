@@ -1,0 +1,185 @@
+C:\Software\DataStructures\Lab1ProductDistributionMain\obj\productdistributionmain.exe
+How many Product Generators?  4
+
+How many points of sale?  3
+
+
+BB delivered.  delivered. 
+
+
+
+GateKeeper insert accepted RICE B
+Next grain shipment arrives  1.27761E+00 Time units!
+
+B delivered. 
+
+B delivered. 
+
+GateKeeper insert accepted TOMATO B
+Next grain shipment arrives  4.34619E-01 Time units!
+
+B delivered. 
+
+B delivered. 
+
+GateKeeper insert accepted RICE B
+Next grain shipment arrives  8.03268E-01 Time units!
+
+GateKeeper insert accepted SQUASH B
+Next grain shipment arrives  1.22679E+00 Time units!
+
+M delivered. 
+
+GateKeeper insert accepted CORN B
+Next grain shipment arrives  3.28606E-01 Time units!
+
+M delivered. 
+
+B delivered. 
+
+GateKeeper insert accepted SQUASH B
+Next grain shipment arrives  2.27514E+00 Time units!
+
+GateKeeper insert accepted FOWEL M
+Next grain shipment arrives  8.79319E+00 Time units!
+
+GateKeeper insert accepted FISH M
+Next grain shipment arrives  1.02896E+00 Time units!
+
+B delivered. 
+
+GateKeeper insert accepted TOMATO B
+Next grain shipment arrives  1.03604E+00 Time units!
+
+B delivered. 
+
+GateKeeper insert accepted POTATOES B
+Next grain shipment arrives  3.06212E+00 Time units!
+
+B delivered. 
+
+GateKeeper insert accepted TOMATO B
+Next grain shipment arrives  6.55132E+00 Time units!
+
+GateKeeper insert accepted TOMATO B
+Next grain shipment arrives  7.17555E+00 Time units!
+
+Mgt Desired Food Type To Sell is: Type food is: STEAK
+Actual type sold is: RICE
+Food pack removed by GateKeeper for shipment.
+
+Retail Sales successfuly sold RICE B
+B delivered. 
+
+GateKeeper insert accepted WHEAT B
+Next grain shipment arrives  2.07654E+00 Time units!
+
+Mgt Desired Food Type To Sell is: Type food is: WHEAT
+Actual type sold is: TOMATO
+Food pack removed by GateKeeper for shipment.
+
+Retail Sales successfuly sold TOMATO B
+M delivered. 
+
+GateKeeper insert accepted FOWEL M
+Next grain shipment arrives  1.30332E+00 Time units!
+
+M delivered. 
+
+GateKeeper insert accepted FOWEL M
+Next grain shipment arrives  1.90089E+00 Time units!
+
+B delivered. 
+
+M delivered. 
+
+GateKeeper insert accepted SQUASH B
+Next grain shipment arrives  4.94873E+00 Time units!
+
+M delivered. 
+
+GateKeeper insert accepted PORK M
+Next grain shipment arrives  4.29309E+00 Time units!
+
+M delivered. 
+
+GateKeeper insert accepted STEAK M
+Next grain shipment arrives  1.03034E+00 Time units!
+
+GateKeeper insert accepted FOWEL M
+Next grain shipment arrives  8.25469E-02 Time units!
+
+M delivered. 
+
+B delivered. 
+
+GateKeeper insert accepted FOWEL M
+Next grain shipment arrives  2.12869E-01 Time units!
+
+M delivered. 
+
+GateKeeper insert accepted POTATOES B
+Next grain shipment arrives  1.97321E-01 Time units!
+
+M delivered. 
+
+M delivered. 
+
+M delivered. 
+
+GateKeeper insert accepted FOWEL M
+Next grain shipment arrives  3.60628E-01 Time units!
+
+B delivered. 
+
+ Rejected by GateKeeper: 
+STEAK M
+ Rejected =           1. Sent to another distribution facility!
+
+
+Next grain shipment arrives  3.23951E+00 Time units!
+
+ Rejected by GateKeeper: 
+STEAK M
+ Rejected =           2. Sent to another distribution facility!
+
+
+Next grain shipment arrives  1.75448E-01 Time units!
+
+B delivered. 
+
+ Rejected by GateKeeper: 
+STEAK M
+ Rejected =           3. Sent to another distribution facility!
+
+
+Next grain shipment arrives  2.04722E+00 Time units!
+
+ Rejected by GateKeeper: 
+POTATOES B
+ Rejected =           4. Sent to another distribution facility!
+
+
+Next grain shipment arrives  1.90179E+00 Time units!
+
+B delivered. 
+
+ Rejected by GateKeeper: 
+WHEAT B
+ Rejected =           5. Sent to another distribution facility!
+
+
+Next grain shipment arrives  1.35851E+00 Time units!
+
+B delivered. 
+
+
+
+Hours of operation prior to closing:  38.335938400
+
+
+M delivered. 
+
+M delivered. 
+
+[2024-01-22 12:29:20] process terminated successfully, elapsed time: 39.81s

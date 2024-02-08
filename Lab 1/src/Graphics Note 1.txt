@@ -1,0 +1,66 @@
+quiz on C++ on Jan 31st for Comp Graphics
+- Function
+- Recursion
+- control (if/else, for, while, etc...)
+
+1. nD Space: R^n (typically)
+	n: number of dimensions
+Examples:
+* 1D space: time, along a line or curve
+* 2D space: plane, sphere
+* 3D space: the world we live in
+* 4D space: 3D + time
+
+Cartesian Reference Frame / Cartesian Co-ordinate System
+- Cartesian is Orthoganal
+- used to compare point from the origin
+- Cartesian is flipped for displays
+- Equation to fix inversion: y = ymax - yinvert
+
+2. Polar Coordinates
+- Coordinate transformation from (r,theta) to (x,y) space:
+  x = rcos(theta)
+  y = rsin(theta)
+  Angle(theta): in radians
+- r = sqrt(x^2 + y^2)
+- theta = tan^-1(y/x)
+
+3. Vector:
+- "arrow"
+- multiple interperation
+- has magnitude (length) and direction
+- mag = sqrt( (x2 - x1)^2 + (y2 - y1)^2  + (z2 - z1)^2 )
+- vector length 2D = |v| = sqrt( Vx^2 + Vy^2 )
+- vector length 3D = |v| = sqrt( Vx^2 + Vy^2 + Vz^2)
+- has no position
+* Notation: V (H&B)
+* (Vx, Vy, Vz) (H&B), also (x, y, z)
+- Scalar Vector: sV = (sVx, sVy, sVz)
+
+4. DOT Product
+- how you multiply
+- U * Y = |UY|*cosTheta
+- helps find Projection
+- P * Q = XaXb + YaYb
+
+5. CROSS Product
+- U * Y = |UY|*sinTheta
+- area of the parallelogram spanned by a and b ( a * b )
+- used to create depth
+- a x b = |X  Y  Z |
+	  |Xa Ya Za|
+	  |Xb Yb Zb|
+- Cross Product is the determinate of a matrix
+- |YaZb - YbZa|
+  |XaZb - XbZa|
+  |XaYb - XbYa|
+- a x b = A*b is a dual matrix
+- Dual Matrix ex:
+	|0 -Za Ya|
+	|Za 0 -Xa|
+	|-Ya Xa 0|
+
+6. Points
+- Point: position in nD space
+* Notation: P (H&B)
+
