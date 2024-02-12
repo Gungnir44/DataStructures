@@ -48,20 +48,4 @@ begin --body ProductDistributionMain
    newFoodtest : Food_Pack;
    oopnum : Integer := 0;
 
-   New_Line;
-       delay 5;
-      put ("print array content");
-      New_Line;
-      loop
-         if not (CircularQueue.circularQueEmpty) then
-            CircularQueue.retrieveMessage (newFoodtest);
-            PrintFood_Pack (newFoodtest);
-            Put (oopnum);
-            New_Line;
-            oopnum := oopnum + 1;
-         else
-            exit;
-         end if;
-      end loop;
-
 end ProductDistributionMain;
