@@ -46,9 +46,9 @@ begin --body ProductDistributionMain
    end;
 
    newFoodtest : Food_Pack;
-oopnum : Integer := 0;
+   oopnum : Integer := 0;
 
-New_Line;
+   New_Line;
        delay 5;
       put ("print array content");
       New_Line;
